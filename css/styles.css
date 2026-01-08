@@ -9,9 +9,15 @@ body {
 }
 
 /* Shared Designs */
-.design {
+.common-design {
     max-width: 1453.5px;
     width: 85%;
+    margin: 0 auto;
+}
+
+.reusable {
+    max-width: 822.93px;
+    width: 56.61%;
     margin: 0 auto;
 }
 
@@ -31,10 +37,15 @@ a {
     text-transform: capitalize;
 }
 
+i {
+    color: white;
+    font-size: 16px;
+}
 /* Unique Designs */
 nav ul li {
     list-style-type: none;
     display: inline;
+    margin-right: 32px;
 }
 
 li a {
@@ -45,8 +56,96 @@ li a {
 .logo img {
     padding: 16px 0px;
 }
-header {
+.header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+#hero {
+    background-image: url(../assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 154.5px 0px;
+
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.banner-content h1 {
+    color: white;
+    font-size: 72px;
+    line-height: 84px;
+    margin: 16px 0px;
+
+}
+.banner-content p {
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+    margin-bottom: 32px;
+}
+#green {
+    color:  #30B868;
+}
+
+.buttons {
+    display: flex;
+    gap: 16px;
+}
+.unique {
+    border: 1px solid white;
+    background-color: transparent;
+}
+#early {
+    font-size: 16px;
+    font-weight: 500;
+    color: #30B868;
+    border-radius: 1000px;
+    padding: 8px 12px;
+    background-color: white;
+}
+main {
+    background-color: rgb(251, 251, 251);
+}
+.main {
+    height: 117px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.main h2 {
+    font-size: 48px;
+    color: #001931;
+}
+
+p.common {
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+}
+#problems {
+    background-size: 100vw;
+}
+#problems p {
+    text-align: center;
+    margin-top: 16px;
+    
+}
+
+.card-container {
+    margin-top: 44px;
+    display: flex;
+    gap: 24px;
+}
+
+.cards {
+    background-color: white;
+    border-radius: 8px;
+    padding: 69.5px 24px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
 }
