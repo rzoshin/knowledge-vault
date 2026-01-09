@@ -131,6 +131,10 @@ i {
     text-transform: capitalize;
 }
 
+.special {
+    padding: 55px 24px;
+}
+
 /* Separator */
 .separator::before {
   content: "•";
