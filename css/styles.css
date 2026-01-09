@@ -6,6 +6,7 @@
 
 body {
     font-family: "Inter", sans-serif;
+    background-color: white;
 }
 
 /* Shared Designs */
@@ -20,6 +21,11 @@ body {
     width: 56.61%;
     margin: 0 auto;
     justify-content: center;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
 }
 
 .btn {
@@ -72,8 +78,6 @@ li a {
 }
 
 .banner-content {
-    display: flex;
-    flex-direction: column;
     align-items: center;
     text-align: center;
 }
@@ -110,9 +114,8 @@ li a {
     padding: 8px 12px;
     background-color: white;
 }
-main {
-    background-color: rgb(251, 251, 251);
-}
+
+
 .main {
     height: 117px;
     display: flex;
@@ -125,10 +128,11 @@ main {
     text-align: center;
 }
 
-p.common {
+.common {
     font-size: 16px;
     line-height: 20px;
     color: #627382;
+    font-weight: 300;
 }
 #problems {
     background-size: 100vw;
@@ -138,7 +142,6 @@ p.common {
     margin-top: 16px;
     
 }
-
 .card-container {
     margin-top: 44px;
     display: flex;
@@ -150,4 +153,74 @@ p.common {
     border-radius: 8px;
     padding: 69.5px 24px;
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+    align-items: center;
+    gap: 16px;
+    text-align: center;
 }
+
+.cards img {
+    background-color: #F95555;
+    border-radius: 50%;
+    padding: 10px;
+    max-width: 60px;
+}
+
+.cards h4 {
+    font-size: 24px;
+    font-weight: 600px;
+    color: #001931;
+    text-transform: capitalize;
+}
+
+#solution {
+    padding: 120px 0px;
+}
+
+.solution-container {
+    display: flex;
+    gap: 60px;
+}
+
+.content {
+    margin: 102px 0px;
+    justify-content: left;
+    text-align: left;
+    max-width: 515px;
+    gap: 40px;
+}
+
+.content h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #001931;
+    text-transform: capitalize;
+}
+
+.upper {
+    gap: 16px;
+}
+.caption {
+    text-transform:uppercase;
+    color: #30B868;
+    font-size: 16px;
+
+}
+.lower ul {
+    list-style-type: none;
+    gap: 16px;
+}
+
+.lower ul li p {
+    display: inline;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+}
+.list-icon, .list-text {
+    vertical-align: middle;
+}
+
+#solution {
+    background-color: white;
+}
+
