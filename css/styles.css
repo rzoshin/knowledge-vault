@@ -92,6 +92,20 @@ i {
     font-size: 11px;
 }
 
+.wrapper {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #F95555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper img {
+    font-size: 32px
+}
+
 /* Cards */
 .cards {
     background-color: white;
