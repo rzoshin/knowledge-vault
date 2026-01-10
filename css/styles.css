@@ -270,10 +270,11 @@ li a {
 
 /* Solution Section */
 #solution {
-    position: relative;
-    top: -50px;
+    margin-top: -50px;
     padding: 120px 0px;
     background-color: white;
+    z-index: 2;
+    position: relative;
 }
 
 .solution-container {
